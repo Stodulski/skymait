@@ -18,15 +18,15 @@ const BenefitsSection = () => {
               En todos nuestros servicios te ofrecemos:
             </p>
             <ul className='text-zinc-900 font-semibold flex flex-col text-lg gap-y-2 my-4'>
-              <li>
+              <li className='text-left mx-auto w-[320px]'>
                 <span className='text-[#df3d33] mr-1'>{'>'}</span> Dominio
                 Gratuito por 1 año
               </li>
-              <li>
+              <li className='text-left mx-auto w-[320px]'>
                 <span className='text-[#df3d33] mr-1'>{'>'}</span> Hosting
                 Gratuito por 3 meses
               </li>
-              <li>
+              <li className='text-left mx-auto w-[320px]'>
                 <span className='text-[#df3d33] mr-1'>{'>'}</span> 1er mes de
                 mantenimiento gratuito
               </li>
