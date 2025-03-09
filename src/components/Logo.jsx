@@ -1,4 +1,4 @@
-import logo from '../assets/skymaitLogo.webp'
+import logo from '../assets/logo.webp'
 
 export const Logo = ({ footer }) => {
   return (
