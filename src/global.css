@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+body,
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+.services {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+@keyframes show{
+from{
+  opacity:0;
+  scale:10%;
+} to{
+  opacity: 1;
+  scale: 100%;
+}
+}
+
+.scroll-show{
+  view-timeline-name: --reveal;
+  animation-name: show;
+  animation-fill-mode: both;
+  animation-timeline: --reveal;
+  animation-range: entry 10% cover 30%;
+}
+
+
