@@ -7,10 +7,10 @@ export const ServicesSection = () => {
       <div className='max-w-7xl mx-auto px-6 lg:px-8 pt-3'>
         <div className='max-w-7xl mx-auto pt-3'>
           <div className='max-w-2xl mx-auto lg:text-center'>
-            <p className=' text-lg sm:text-base leading-7 font-semibold uppercase tracking-[4px] text-[#df3d33] scroll-show'>
+            <p className=' text-lg sm:text-base leading-7 font-semibold uppercase tracking-[4px] text-[#df3d33] sm:scroll-show'>
               Soluciones Web Personalizadas
             </p>
-            <h2 className='text-4xl font-bold tracking-tight text-gray-900 mt-2 sm:text-4xl scroll-show'>
+            <h2 className='text-4xl font-bold tracking-tight text-gray-900 mt-2 sm:text-4xl sm:scroll-show'>
               El Futuro del Desarrollo Digital
             </h2>
             <p className='text-lg leading-8 text-zinc-800 mt-6 scroll-show'>
