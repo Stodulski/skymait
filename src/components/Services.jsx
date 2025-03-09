@@ -7,7 +7,7 @@ export const Services = ({ title, text }) => {
         <ServicesSectionSVG />
         {title}
       </h3>
-      <div className='flex flex-auto text-center flex-col text-base leading-7 text-gray-600 mt-4'>
+      <div className='flex flex-auto text-center flex-col text-base leading-7 text-zinc-800 mt-4'>
         <p>{text}</p>
       </div>
     </div>
