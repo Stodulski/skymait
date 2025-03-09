@@ -31,10 +31,6 @@ const BenefitsSection = () => {
                 mantenimiento gratuito
               </li>
             </ul>
-            <p className='text-lg text-zinc-800 max-w-xl mx-auto'>
-              Todo para que tu página web esté siempre optimizada y lista para
-              crecer.
-            </p>
             <div className='flex items-center justify-center gap-x-6 mt-8'>
               <Button icon={true} buttonStyle='px-4 py-3' label={'Cotizar'} />
             </div>
