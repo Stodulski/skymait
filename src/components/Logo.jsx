@@ -5,7 +5,7 @@ export const Logo = ({ footer }) => {
     <img
       src={logo}
       loading={`${footer ? 'lazy' : 'eager'}`}
-      alt='Logo de Skyma.dev'
+      alt='Logo de Skyma IT'
       className='w-12 sm:w-15 '
     />
   )
