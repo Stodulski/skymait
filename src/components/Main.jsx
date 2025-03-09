@@ -9,7 +9,7 @@ const Main = () => {
       <div className='relative z-20 max-w-7xl mx-auto px-6 lg:px-8'>
         <div className='max-w-2xl mx-auto text-center'>
           <div className='text-3xl sm:text-5xl'>
-            <Title text='SkymaIT' />
+            <Title text='Skyma IT' />
             <p className='text-zinc-800'>
               Innovamos el futuro digital con soluciones personalizadas
             </p>
