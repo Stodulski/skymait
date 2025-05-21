@@ -1,8 +1,7 @@
-import React from 'react'
 import { Title } from './Title'
-import { Button } from './Button'
-import { MainSVG } from './MainSVG'
-const Main = () => {
+import { Button } from '../UI/Button'
+import { MainSVG } from '../UI/MainSVG'
+export const HeroSections = () => {
   return (
     <main className='relative overflow-hidden bg-gradient-to-b from-red-50 via-transparent to-transparent pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pb-24 xl:pb-32 xl:pt-40'>
       <MainSVG />
@@ -22,4 +21,3 @@ const Main = () => {
     </main>
   )
 }
-export default Main

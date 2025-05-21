@@ -1,5 +1,4 @@
-import React from 'react'
-import { Logo } from './Logo'
+import { Logo } from '../UI/Logo'
 const Footer = () => {
   return (
     <footer className='p-5'>
