@@ -1,5 +1,5 @@
 import './global.css'
-import { Home } from './home/home.jsx'
+import { Home } from './pages/home.jsx'
 
 export const App = () => {
   return <Home />
