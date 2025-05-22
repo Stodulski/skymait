@@ -1,4 +1,3 @@
-import React from 'react'
 import { ServicesSectionSVG } from './ServicesSectionSVG'
 export const Services = ({ title, text }) => {
   return (

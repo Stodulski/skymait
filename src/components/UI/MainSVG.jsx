@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const MainSVG = () => {
   return (
     <div className='relative isolate z-10'>

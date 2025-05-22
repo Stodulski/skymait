@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 export const useWriteEffect = (text, speed, delay) => {
   const [displayedText, setDisplayedText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)

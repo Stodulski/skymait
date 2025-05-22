@@ -1,6 +1,5 @@
-import React from 'react'
-import { Button } from './Button'
-import { MainSVG } from './MainSVG'
+import { Button } from '../UI/Button'
+import { MainSVG } from '../UI/MainSVG'
 
 const BenefitsSection = () => {
   return (
