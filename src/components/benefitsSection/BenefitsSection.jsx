@@ -11,7 +11,6 @@ const BenefitsSection = () => {
             <h2 className='max-w-3xl text-4xl font-bold tracking-tight text-zinc-900 mx-auto sm:text-5xl'>
               Mejorá tu presencia digital ahora
             </h2>
-            <MainSVG />
 
             <p className='mt-8 text-lg text-zinc-800 max-w-xl mx-auto'>
               En todos nuestros servicios te ofrecemos:
