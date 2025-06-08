@@ -28,7 +28,7 @@ export const ServicesSection = () => {
             />
             <Services
               title='E-Commerce'
-              text='Aumenta tus ventas con un eCommerce eficiente, fácil de gestionar y con gran experiencia de compra.'
+              text='Aumenta tus ventas con un E-Commerce eficiente, fácil de gestionar y con gran experiencia de compra.'
             />
             <Services
               title='Aplicacion web'
