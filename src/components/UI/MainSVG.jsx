@@ -1,11 +1,11 @@
 export const MainSVG = () => {
   return (
-    <div className='relative isolate z-10'>
+    <div className='relative isolate -z-10'>
       <div
-        className={`absolute -z-10 flex -translate-y-1/2 justify-center overflow-hidden inset-x-0 [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]`}
+        className={`absolute z-10 flex -translate-y-1/2 justify-center overflow-hidden inset-x-0 [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]`}
       >
         <svg
-          className={`h-[60rem] w-[100rem] flex-none stroke-[#df3d33] opacity-30`}
+          className={`h-[60rem] w-[100rem] z-10 flex-none stroke-[#df3d33] opacity-30`}
           aria-hidden='true'
         >
           <defs>
