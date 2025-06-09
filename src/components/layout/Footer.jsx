@@ -8,7 +8,7 @@ const Footer = () => {
         target='_BLANK'
         title='Ir al instagram'
       >
-        <img src={igLogo} alt="Logo de instagram" className='w-16'/>
+        <img src={igLogo} alt="Logo de instagram" className='w-12'/>
       </a>
       <Logo footer={true} />
     </footer>
