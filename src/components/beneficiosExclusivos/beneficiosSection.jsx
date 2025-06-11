@@ -1,6 +1,6 @@
 export const BeneficiosSection = () => {
   return (
-    <section className='max-w-7xl mt-26 mx-auto px-6  sm:px-6 lg:px-8 flex flex-col justify-center items-center'>
+    <section className='max-w-7xl mt-16 mx-auto px-6  sm:px-6 lg:px-8 flex flex-col justify-center items-center'>
       <h3 className='text-4xl sm:text-5xl font-bold scroll-show'>
         ¿Por qué elegirnos?
       </h3>
