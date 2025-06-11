@@ -7,7 +7,7 @@ const Footer = () => {
         href='https://www.instagram.com/skymait/'
         target='_BLANK'
         title='Ir al instagram'
-        className='flex flex-col justify-center items-center gap-3 hover:text-blue-800'
+        className='flex flex-col justify-center items-center gap-3 hover:text-red-500'
       >
         <img src={igLogo} alt="Logo de instagram" className='w-12'/>
       </a>

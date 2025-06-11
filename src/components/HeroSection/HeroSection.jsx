@@ -4,7 +4,7 @@ import { MainSVG } from '../UI/MainSVG'
 
 export const HeroSections = () => {
   return (
-    <main className='relative overflow-hidden bg-gradient-to-b from-blue-50 via-transparent to-transparent pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pb-24 xl:pb-32 xl:pt-40'>
+    <main className='relative overflow-hidden bg-gradient-to-b from-red-50 via-transparent to-transparent pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pb-24 xl:pb-32 xl:pt-40'>
       <MainSVG />
 
 

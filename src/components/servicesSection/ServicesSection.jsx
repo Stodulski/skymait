@@ -6,7 +6,7 @@ export const ServicesSection = () => {
       <div className='max-w-7xl mx-auto px-6 lg:px-8 pt-3'>
         <div className='max-w-7xl mx-auto pt-3'>
           <div className='max-w-2xl mx-auto lg:text-center'>
-            <p className=' text-lg sm:text-lg leading-7 uppercase tracking-[3px] text-blue-800 sm:scroll-show'>
+            <p className=' text-lg sm:text-lg leading-7 uppercase tracking-[3px] text-red-500 sm:scroll-show'>
               Soluciones Web Personalizadas
             </p>
             <h2 className='text-4xl font-bold tracking-tight text-gray-900 mt-5 sm:text-5xl sm:scroll-show'>

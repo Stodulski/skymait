@@ -11,7 +11,7 @@ export const BeneficiosSection = () => {
           tecnologías modernas, soluciones a medida y atención personalizada.
           Entregas rápidas y comunicación clara para que tu proyecto crezca sin
           obstáculos.{' '}
-          <span className='text-blue-800 font-bold block text-xl mt-3'>¡Crece con nosotros!</span>
+          <span className='text-red-500 font-bold block text-xl mt-3'>¡Crece con nosotros!</span>
         </p>
       </div>
     </section>

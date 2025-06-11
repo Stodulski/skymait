@@ -5,18 +5,19 @@ export const Nav = () => {
       <div className='px-4'>
         <div className='flex items-center justify-between'>
           <div className='flex shrink-0'>
-            <a href='https://www.instagram.com/skymait/' title='Ir al instagram' target='_BLANK' className=' flex items-center gap-1'>
+            <a
+              href='https://www.instagram.com/skymait/'
+              title='Ir al instagram'
+              target='_BLANK'
+              className=' flex items-center gap-1'
+            >
               <Logo />
             </a>
           </div>
           <div className='flex items-center justify-end sm:gap-3'>
-            <a
-              className='cursor-pointer sm:inline-block text-sm text-white transition-all duration-200 hover:bg-black rounded-lg px-5 py-3 font-semibold  bg-blue-700'
-            >
+            <a className='cursor-pointer sm:inline-block text-sm text-white transition-all duration-200 hover:bg-black rounded-lg px-5 py-3 font-semibold  bg-red-500'>
               Contactar
             </a>
-            
-
           </div>
         </div>
       </div>
