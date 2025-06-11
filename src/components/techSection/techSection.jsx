@@ -14,6 +14,7 @@ export const TechSection = () => {
         </p>
 
         <ul className='flex gap-x-10 my-5 justify-between items-center '>
+            
           <li className='flex flex-col justify-center items-center gap-y-3 w-[100%] scroll-show'>
             <img src={nodejsLogo} alt='' className='w-20 h-20' />
           </li>

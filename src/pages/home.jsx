@@ -10,6 +10,7 @@ const BenefitsSection = React.lazy(() =>
 )
 const Footer = React.lazy(() => import('../components/layout/Footer'))
 
+
 export const Home = () => {
   return (
     <>
