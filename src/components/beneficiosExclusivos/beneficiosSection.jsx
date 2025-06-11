@@ -7,7 +7,11 @@ export const BeneficiosSection = () => {
 
       <div className=''>
         <p className='mt-6 mb-5 text-lg leading-8 mx-auto sm:text-center max-w-2xl text-black/70 scroll-show'>
-          Aunque somos una agencia joven, tenemos un equipo experto en tecnologías modernas, soluciones a medida y atención personalizada. Entregas rápidas y comunicación clara para que tu proyecto crezca sin obstáculos. <span className="text-blue-800 font-bold">¡Crece con nosotros!</span>
+          Aunque somos una agencia joven, tenemos un equipo experto en
+          tecnologías modernas, soluciones a medida y atención personalizada.
+          Entregas rápidas y comunicación clara para que tu proyecto crezca sin
+          obstáculos.{' '}
+          <span className='text-blue-800 font-bold'>¡Crece con nosotros!</span>
         </p>
       </div>
     </section>
