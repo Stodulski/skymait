@@ -10,6 +10,9 @@ html {
     rgba(255, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.tech{
+   filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.185));
+}
 @keyframes show {
   from {
     opacity: 0;

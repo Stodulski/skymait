@@ -16,13 +16,13 @@ export const TechSection = () => {
         <ul className='flex gap-x-10 my-5 justify-between items-center '>
             
           <li className='flex flex-col justify-center items-center gap-y-3 w-[100%] scroll-show'>
-            <img src={nodejsLogo} alt='' className='w-20 h-20' />
+            <img src={nodejsLogo} alt='' className='w-20 h-20 tech' />
           </li>
           <li className='flex flex-col justify-center items-center gap-y-3 w-[100%] scroll-show'>
-            <img src={nextLogo} alt='' className='w-20 h-20' />
+            <img src={nextLogo} alt='' className='w-20 h-20 tech' />
           </li>
           <li className='flex flex-col justify-center items-center gap-y-3 w-[100%] scroll-show'>
-            <img src={medusaLogo} alt='' className='w-20 h-20' />
+            <img src={medusaLogo} alt='' className='w-20 h-20 tech' />
           </li>
         </ul>
       </div>
