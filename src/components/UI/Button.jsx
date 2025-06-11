@@ -4,7 +4,7 @@ export const Button = ({ icon, label, buttonStyle }) => {
       href='https://api.whatsapp.com/send/?phone=%2B541124638281&text=Hola%21+Quiero%20cotizar%20mi%20proyecto&type=phone_number&app_absent=0'
       target='_BLANK'
       className={`
-inline-flex items-center cursor-pointer justify-center gap-2 bg-zinc-900 font-semibold text-white shadow-sm transition-all duration-150 rounded-xl px-6 py-2 sm:px-5 sm:py-2 hover:bg-[#df3d33] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${buttonStyle}`}
+inline-flex items-center cursor-pointer justify-center gap-2 bg-blue-700 font-semibold text-white shadow-sm transition-all duration-300 rounded-xl w-46  hover:bg-[#000000] focus-visible:outline focus-visible:outline-offset-2 ${buttonStyle}`}
     >
       {label}
       {icon && (

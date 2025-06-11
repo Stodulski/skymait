@@ -1,7 +1,7 @@
 import { Logo } from '../UI/Logo'
 export const Nav = () => {
   return (
-    <nav className='fixed z-30 w-full max-w-screen-md bg-white/80 shadow backdrop-blur-lg inset-x-0 top-0 mx-auto py-2 md:top-6 md:rounded-3xl lg:max-w-screen-lg'>
+    <nav className='fixed z-30 w-full max-w-screen-md sm:bg-white/50 sm:shadow backdrop-blur-xs inset-x-0 top-0 mx-auto py-2 md:top-6 md:rounded-3xl lg:max-w-screen-lg'>
       <div className='px-4'>
         <div className='flex items-center justify-between'>
           <div className='flex shrink-0'>
@@ -11,17 +11,11 @@ export const Nav = () => {
           </div>
           <div className='flex items-center justify-end sm:gap-3'>
             <a
-              href='#servicios'
-              className='cursor-pointer sm:inline-block text-sm font-semibold text-gray-800 transition-all duration-200 rounded-lg px-2 py-1  hover:text-[#df3d33]'
+              className='cursor-pointer sm:inline-block text-sm text-white transition-all duration-200 hover:bg-black rounded-lg px-5 py-3 font-semibold  bg-blue-700'
             >
-              Servicios
+              Contactar
             </a>
-            <a
-              href='#beneficios'
-              className='cursor-pointer sm:inline-block text-sm font-semibold text-gray-800 transition-all duration-200 rounded-lg px-2 py-1  hover:text-[#df3d33]'
-            >
-              Beneficios
-            </a>
+            
 
           </div>
         </div>

@@ -6,17 +6,14 @@ export const ServicesSection = () => {
       <div className='max-w-7xl mx-auto px-6 lg:px-8 pt-3'>
         <div className='max-w-7xl mx-auto pt-3'>
           <div className='max-w-2xl mx-auto lg:text-center'>
-            <p className=' text-lg sm:text-base leading-7 font-semibold uppercase tracking-[4px] text-[#df3d33] sm:scroll-show'>
+            <p className=' text-lg sm:text-lg leading-7 uppercase tracking-[3px] text-blue-800 sm:scroll-show'>
               Soluciones Web Personalizadas
             </p>
-            <h2 className='text-4xl font-bold tracking-tight text-gray-900 mt-2 sm:text-4xl sm:scroll-show'>
+            <h2 className='text-4xl font-bold tracking-tight text-gray-900 mt-5 sm:text-5xl sm:scroll-show'>
               El Futuro del Desarrollo Digital
             </h2>
-            <p className='text-lg leading-8 text-zinc-800 mt-6 scroll-show'>
-              Crear plataformas web innovadoras y escalables es sencillo cuando
-              cuentas con el equipo adecuado. Te ayudamos a llevar tu negocio al
-              siguiente nivel con soluciones digitales personalizadas que se
-              adaptan a tus necesidades.
+            <p className='text-lg leading-8 text-black/70 mt-6 scroll-show'>
+             Impulsa tu negocio con plataformas web innovadoras y escalables, creadas por un equipo experto. En nuestra agencia, diseñamos soluciones digitales personalizadas que se adaptan a tus objetivos y crecen contigo. Confía en nosotros para convertir tus ideas en proyectos sólidos y eficientes, listos para el futuro.
             </p>
           </div>
         </div>
@@ -31,7 +28,7 @@ export const ServicesSection = () => {
               text='Aumenta tus ventas con un E-Commerce eficiente, fácil de gestionar y con gran experiencia de compra.'
             />
             <Services
-              title='Aplicacion web'
+              title='Sistema web'
               text='Accede a tus servicios en cualquier dispositivo con una aplicación web rápida, moderna y adaptativa.'
             />
           </div>

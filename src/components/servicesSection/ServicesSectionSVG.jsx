@@ -1,7 +1,7 @@
 export const ServicesSectionSVG = () => {
   return (
     <svg
-      className='h-5 w-5 flex-none text-[#df3d33]'
+      className='h-5 w-5 flex-none text-blue-800'
       viewBox='0 0 20 20'
       fill='currentColor'
       aria-hidden='true'

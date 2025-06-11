@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 
 export const Logo = ({ footer }) => {
   return (
@@ -6,7 +6,7 @@ export const Logo = ({ footer }) => {
       src={logo}
       loading={`${footer ? 'lazy' : 'eager'}`}
       alt='Logo de Skyma IT'
-      className='w-12 sm:w-15 '
+      className='w-16 sm:w-16 '
     />
   )
 }

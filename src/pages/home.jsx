@@ -3,6 +3,8 @@ import React from 'react'
 import { Nav } from '../components/layout/Nav'
 import { HeroSections } from '../components/HeroSection/HeroSection'
 import { ServicesSection } from '../components/servicesSection/ServicesSection'
+import { TechSection } from '../components/techSection/techSection'
+import { BeneficiosSection } from '../components/beneficiosExclusivos/beneficiosSection'
 const BenefitsSection = React.lazy(() =>
   import('../components/benefitsSection/BenefitsSection')
 )
@@ -15,6 +17,8 @@ export const Home = () => {
       <HeroSections />
       <ServicesSection />
       <Suspense>
+        <TechSection />
+        <BeneficiosSection />
         <BenefitsSection />
         <Footer />
       </Suspense>
