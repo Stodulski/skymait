@@ -165,7 +165,7 @@ export default function HomePage () {
             <Button
               size="lg"
               onClick={onWhatsAppClick}
-              className="group bg-[#FFD600] text-[#0F0F0F] font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto transition-transform duration-300 hover:scale-105 active:scale-95"
+              className="group bg-[#FFD600] cursor-pointer text-[#0F0F0F] font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto transition-transform duration-300 hover:scale-105 active:scale-95"
             >
               Iniciar Proyecto
               <ArrowRight className="ml-2 w-4 sm:w-5 h-4 sm:h-5 transition-transform group-hover:translate-x-1" />
@@ -300,7 +300,7 @@ export default function HomePage () {
             <Button
               size="lg"
               onClick={onWhatsAppClick}
-              className="group bg-[#FFD600] text-[#0F0F0F] font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto transition-transform duration-300 hover:scale-105 active:scale-95"
+              className="group bg-[#FFD600] cursor-pointer text-[#0F0F0F] font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto transition-transform duration-300 hover:scale-105 active:scale-95"
             >
               Comenzar Ahora
               <ArrowRight className="ml-2 w-4 sm:w-5 h-4 sm:h-5 transition-transform group-hover:translate-x-1" />
