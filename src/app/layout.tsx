@@ -21,6 +21,9 @@ const orbitron = Orbitron({
 })
 
 export const metadata: Metadata = {
+  icons:{
+icon: "/favicon.png"
+  },
   title: 'Skyma IT - Desarrollo Web',
   description: 'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
   keywords: ['desarrollo web', 'diseño web', 'e-commerce', 'SEO', 'sitios web', 'aplicaciones web', 'landing pages'],
