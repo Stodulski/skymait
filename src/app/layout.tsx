@@ -21,19 +21,29 @@ const orbitron = Orbitron({
 })
 
 export const metadata: Metadata = {
-  icons:{
-icon: "/favicon.png"
+  icons: {
+    icon: '/favicon.png'
   },
   title: 'Skyma IT - Desarrollo Web',
-  description: 'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
-  keywords: ['desarrollo web', 'diseño web', 'e-commerce', 'SEO', 'sitios web', 'aplicaciones web', 'landing pages'],
+  description:
+    'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
+  keywords: [
+    'desarrollo web',
+    'diseño web',
+    'e-commerce',
+    'SEO',
+    'sitios web',
+    'aplicaciones web',
+    'landing pages'
+  ],
   authors: [{ name: 'Skyma IT' }],
   creator: 'Skyma IT',
   generator: 'Next.js',
   metadataBase: new URL('https://skymait.com'),
   openGraph: {
     title: 'Skyma IT - Desarrollo Web',
-    description: 'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
+    description:
+      'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
     url: 'https://skymait.com',
     siteName: 'Skyma IT',
     images: [
@@ -50,7 +60,8 @@ icon: "/favicon.png"
   twitter: {
     card: 'summary_large_image',
     title: 'Skyma IT - Desarrollo Web',
-    description: 'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
+    description:
+      'Agencia de desarrollo web que transforma ideas en experiencias digitales extraordinarias',
     images: ['https://skymait.com/twitter-image.jpg']
   },
   robots: {
@@ -74,21 +85,21 @@ export const viewport: Viewport = {
   colorScheme: 'dark'
 }
 
-export default function RootLayout({
+export default function RootLayout ({
   children
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
     <html
-      lang="es"
+      lang='es'
       className={`${inter.variable} ${orbitron.variable} antialiased`}
       suppressHydrationWarning
     >
       <body>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
+          attribute='class'
+          defaultTheme='dark'
           enableSystem={false}
           disableTransitionOnChange
         >
